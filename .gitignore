@@ -5,7 +5,11 @@
 /doc/
 /pkg/
 /spec/reports/
+/spec/examples.txt
+/spec/fixtures/
 /tmp/
-
+.ruby-version
+vendor/bundle/**
 # rspec failure tracking
 .rspec_status
+*.gem
