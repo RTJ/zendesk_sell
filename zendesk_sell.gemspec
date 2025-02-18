@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ["eugeniu.rtj@gmail.com"]
 
   spec.summary = "A Ruby client for the Zendesk Sell (Sales CRM) API"
-  spec.description = "The zendesk_sell gem provides a robust and modular Ruby interface for interacting with the Zendesk Sell API. It supports full CRUD operations on resources such as leads, deals, contacts, companies, tasks, and users using the Faraday HTTP client."
+  spec.description = "The zendesk_sell gem provides a robust and modular Ruby interface for interacting with the Zendesk Sell API. It supports full CRUD operations on resources such as leads, deals, contacts, companies, tasks, and users"
   spec.homepage = "https://github.com/RTJ/zendesk_sell"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
