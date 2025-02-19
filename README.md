@@ -1,7 +1,6 @@
 # Zendesk Sell
 
-**Zendesk Sell** is a Ruby client for the [Zendesk Sell (Sales CRM) API](https://developer.zendesk.com/api-reference/sales-crm/resources/introduction/). This gem provides a robust and modular interface to interact with Zendesk Sell’s resources—such as leads, deals, contacts, companies, tasks, and users—using Faraday for HTTP requests. It supports full CRUD operations and follows best practices for a clean and extensible codebase.
-
+**Zendesk Sell** is a Ruby client for the [Zendesk Sell (Sales CRM) API](https://developer.zendesk.com/api-reference/sales-crm/resources/introduction/). This gem provides a robust and modular interface to interact with Zendesk Sell’s resources—such as leads, deals, contacts, companies, tasks, and users—using Faraday for HTTP requests.
 ## Installation
 
 Add this line to your application's Gemfile:
