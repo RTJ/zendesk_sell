@@ -95,9 +95,10 @@ puts "Contact Details: #{contact}"
 
 ```ruby
 new_lead_attributes = {
-  name: "John Doe",
-  email: "john.doe@example.com",
-  phone: "+123456789"
+  first_name: "Alice",
+  last_name: "Smith",
+  email: "alice.smith@example.com",
+  phone: "+11234567890"
 }
 created_lead = client.leads.create(new_lead_attributes)
 puts "Created Lead: #{created_lead}"

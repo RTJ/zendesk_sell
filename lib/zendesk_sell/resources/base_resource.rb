@@ -18,7 +18,7 @@ module ZendeskSell
       # Create a new resource.
       # The payload structure follows the Zendesk Sell API's expected format.
       def create(attributes = {})
-        payload = { data: { type: resource_type, attributes: attributes } }
+        payload = { data: attributes }
         @client.request(:post, endpoint, payload: payload)
       end
 
